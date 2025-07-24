@@ -1,3 +1,10 @@
+# Ignore secret and environment files
+.env
+*.key
+*.pem
+*.secret
+*.config
+aws_credentials.json
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
